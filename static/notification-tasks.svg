@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480" role="img" aria-label="Recordatorio de tareas de Academia La Dolorosa">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b080b"/>
+      <stop offset=".55" stop-color="#a10f20"/>
+      <stop offset="1" stop-color="#d01e34"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff19a"/>
+      <stop offset=".5" stop-color="#ffd32a"/>
+      <stop offset="1" stop-color="#f0a900"/>
+    </linearGradient>
+    <filter id="shadow" x="-.3" y="-.3" width="1.6" height="1.7">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#160306" flood-opacity=".42"/>
+    </filter>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#ffe56b" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#ffe56b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="960" height="480" rx="44" fill="url(#bg)"/>
+  <circle cx="775" cy="80" r="255" fill="url(#glow)"/>
+  <path d="M0 390 360 150l240 330H0Z" fill="#670a14" opacity=".28"/>
+  <path d="m960 90-300 390h300Z" fill="#ff5660" opacity=".16"/>
+  <g transform="translate(485 62) rotate(7 165 170)" filter="url(#shadow)">
+    <rect x="28" y="24" width="292" height="346" rx="34" fill="#fff9e9"/>
+    <path d="M28 60q0-36 36-36h220q36 0 36 36v74H28Z" fill="#941324"/>
+    <path d="M91 8v52M257 8v52" stroke="url(#gold)" stroke-width="16" stroke-linecap="round"/>
+    <text x="174" y="111" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="800" fill="#fff2ad">ACADEMIA</text>
+    <g fill="url(#gold)">
+      <rect x="64" y="176" width="62" height="57" rx="14"/>
+      <rect x="143" y="176" width="62" height="57" rx="14"/>
+      <rect x="222" y="176" width="62" height="57" rx="14"/>
+      <rect x="64" y="250" width="62" height="57" rx="14"/>
+      <rect x="143" y="250" width="62" height="57" rx="14"/>
+    </g>
+    <path d="m158 278 15 15 31-36" fill="none" stroke="#851321" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="255" cy="278" r="19" fill="#fff0a3"/>
+    <path d="m246 278 7 7 13-16" fill="none" stroke="#9b1525" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M64 337h220" stroke="#e9d8bd" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g fill="url(#gold)">
+    <path d="m164 93 13 27 30 4-22 21 5 30-26-15-27 15 6-30-22-21 30-4Z"/>
+    <path d="m355 315 8 16 18 3-13 12 3 18-16-9-16 9 3-18-13-12 18-3Z" opacity=".8"/>
+    <circle cx="805" cy="370" r="10"/><circle cx="400" cy="92" r="7"/>
+  </g>
+</svg>
